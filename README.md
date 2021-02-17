@@ -31,14 +31,14 @@ See how it look & feel at :point_right: [CV][CV] :point_left:
 
 ## :runner: Usage ##
 
-### :one: Clone the repository ###
+### :one: Clone the repository and enter its directory ###
 ```shell
 $ APP_NAME=cv \
 && git clone https://github.com/tbaltrushaitis/${APP_NAME}.git \
 && cd ${APP_NAME}
 ```
 
-### :two: Install dependencies ###
+### :two: Install the dependencies ###
 ```shell
 $ make setup
 ```
@@ -60,7 +60,7 @@ $ make deploy
 This will create/update `webroot` directory inside the project root.
 Use this directory as DocumentRoot in VirtualHost configuration of your web server.
 
-### :white_check_mark: Enjoy  ###
+### :six: Enjoy  ###
 
 Post a link to your CV on sites where you need your personal profile page should be discovered by other users and that provide a lots of information about your professional skills and experience.
 For example: [Modern CV](http://bit.ly/tomascv)
